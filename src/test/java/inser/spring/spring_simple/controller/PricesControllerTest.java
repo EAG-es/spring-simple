@@ -2,15 +2,9 @@ package inser.spring.spring_simple.controller;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import static inser.spring.prueba_inditex.controller.PricesController.k_pricesController_base_url_tex;
-import static inser.spring.prueba_inditex.controller.PricesController.k_pricesController_check_brand_id;
-import static inser.spring.prueba_inditex.controller.PricesController.k_pricesController_check_from_star_date_url_tex;
-import static inser.spring.prueba_inditex.controller.PricesController.k_pricesController_check_product_id;
-import static inser.spring.prueba_inditex.controller.PricesController.k_pricesController_check_start_date;
-import static inser.spring.prueba_inditex.controller.PricesController.k_pricesController_check_url_tex;
-import inser.spring.prueba_inditex.dto.PricesCheckDto;
-import inser.spring.prueba_inditex.entity.PricesEntity;
 import inser.spring.spring_simple.Spring_simple;
+import inser.spring.spring_simple.dto.PricesCheckDto;
+import inser.spring.spring_simple.entity.PricesEntity;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -29,6 +23,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+import static inser.spring.spring_simple.controller.PricesController.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.greaterThanOrEqualTo;
