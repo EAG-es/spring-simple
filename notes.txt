@@ -1,0 +1,6 @@
+OpenAPI
+1- Find:   
+    http://localhost:8100/v3/api-docs
+    http://localhost:8100/v3/api-docs.yaml
+    http://localhost:8100/swagger-ui/index.html
+

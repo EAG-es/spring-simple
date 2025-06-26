@@ -1,0 +1,8 @@
+services:
+  java_app:
+    container_name: java_app
+    image: emilioaguilar/spring-simple
+    build: .
+    ports:
+      - "8100:8100"
+
